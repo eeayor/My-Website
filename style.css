@@ -1,0 +1,17 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+    margin: auto;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+    text-align: center;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
