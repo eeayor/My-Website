@@ -3,7 +3,7 @@
 [Home](./README.md) | [Math](./file2.md) | [Social Studies](./file3.md) | [CS50W Notes](./templates/flask-notes.html)
 
 A new fly-through of the fly brain allows anyone to whizz past neurons and visit any of the 40 million synapses where neurons touch neuron. It’s a super-resolution view of the complex network connections in the insect’s brain that underlie behaviors ranging from feeding to mating.
-<iframe width="30%" height="30%" src="https://www.youtube.com/embed/RDExr3oFeLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="50%" height="50%" src="https://www.youtube.com/embed/RDExr3oFeLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 >Navigating through a hi-res 3D image of the fruit fly brain. The colored balls indicate the density of synapses on a subset of the >neurons in the brain: those that respond to dopamine. The balls summarize the placement of a total of 500,000 synapses, out of 40 ?>million in the entire brain, where red indicates the highest synapse density, purple the lowest. (Video courtesy of HHMI, >postproduction by Roxanne Makasdjian and Stephen McNally, UC Berkeley)
 
