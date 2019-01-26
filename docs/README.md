@@ -1,6 +1,6 @@
 # Archives
 
- [Science](./file.md) | [Math](./file2.md) | [Social Studies](./file3.md) | [CS50W Notes](./templates/flask-notes.md)
+ [Science](./file.md) | [Math](./file2.md) | [Social Studies](./file3.md) | [CS50W Notes](./cs50w.md)
 
 
 This is some text, there is nothing interesting about me but thanks for comming to my website, so I am now going to bs the rest
