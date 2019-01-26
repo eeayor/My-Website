@@ -1,16 +1,17 @@
-# Python and Flask
+# CS50W Notes
 
-## Python
- - In this class, Python 3.6 will be used. For those unfamiliar, Python is an interpreted language that will be used in the context of this class to generate dynamic websites and web applications.
- Print a string to the screen:
-```python
+[Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Science](./file2.md)
 
-print("Hello")
+This here is the sets of notes from Harvard's CS50W Which is a computer science class from Harvard Extension that specifically focuses on website development
+with various languages ranging from HTML to SQL.
 
-```
- - Print a format string
-```python
+![CS50W Image](https://online-learning.harvard.edu/sites/default/files/styles/header/public/course/CS50x_web_4-modified.jpg?itok=8wo8PUle)
 
-print(f"Hello, {name}!")
+Notes From CS50W:
 
-```
+* [SQL Notes](./Notes/sql-notes.html)
+* [HTML Notes](./Notes/html-css-notes.html)
+* [GIT Notes](./Notes/git-notes.html)
+* [Flask Notes](./Notes/flask-notes.html)
+* [Project 0](./Notes/Project 0.html)
+* [Project 1](./Notes/Project 1.html)
