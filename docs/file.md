@@ -1,6 +1,6 @@
 # Science
 
-[Home](./README.md) | [Math](./file2.md) | [Social Studies](./file3.md) | [CS50W Notes](./templates/flask-notes.md)
+[Home](./README.md) | [Math](./file2.md) | [Social Studies](./file3.md) | [CS50W Notes](./cs50w.md)
 
 A new fly-through of the fly brain allows anyone to whizz past neurons and visit any of the 40 million synapses where neurons touch neuron. It’s a super-resolution view of the complex network connections in the insect’s brain that underlie behaviors ranging from feeding to mating.
 <iframe width="50%" height="50%" src="https://www.youtube.com/embed/RDExr3oFeLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
