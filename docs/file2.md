@@ -1,6 +1,6 @@
 # Math
 
-[Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [CS50W Notes](./flask-notes.md)
+[Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [CS50W Notes](./cs50w.md)
 
 ## Rolle’s Theorem
 
