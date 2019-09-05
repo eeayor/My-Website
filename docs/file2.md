@@ -1,6 +1,6 @@
 # Math
 
-[Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [CS50W Notes](./file4.md)
+[Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Philosophy and Literature](./file4.md)
 
 Math is one of the most interesting topics on this page, and I will have a resources list for math, as well as a topics list. I wish I could cover all topics in math, that is unfortuately impossilbe, on top of that I also don't have that much time to go though and write about, explain and give notes for all these diffrent types of maths. So I will only cover some maths that I find relevant.
 
