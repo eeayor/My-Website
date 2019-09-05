@@ -1,25 +1,37 @@
 # Social Science
 
-[Science](./file.md) | [Math](./file2.md) | [Home](./README.md) | [CS50W Notes](./cs50w.md)
+[Science](./file.md) | [Math](./file2.md) | [Home](./README.md) | [Philosophy and Litrature](./file4.md)
 
-Wilhelm Wundt (1832–1920) was a German scientist who was the first person to be referred to as a psychologist. His famous book entitled Principles of Physiological Psychology was published in 1873. Wundt viewed psychology as a scientific study of conscious experience, and he believed that the goal of psychology was to identify components of consciousness and how those components combined to result in our conscious experience. Wundt used introspection (he called it “internal perception”), a process by which someone examines their own conscious experience as objectively as possible, making the human mind like any other aspect of nature that a scientist observed. Wundt’s version of introspection used only very specific experimental conditions in which an external stimulus was designed to produce a scientifically observable (repeatable) experience of the mind (Danziger, 1980). The first stringent requirement was the use of “trained” or practiced observers, who could immediately observe and report a reaction. The second requirement was the use of repeatable stimuli that always produced the same experience in the subject and allowed the subject to expect and thus be fully attentive to the inner reaction. These experimental requirements were put in place to eliminate “interpretation” in the reporting of internal experiences and to counter the argument that there is no way to know that an individual is observing their mind or consciousness accurately, since it cannot be seen by any other person. This attempt to understand the structure or characteristics of the mind was known as structuralism. Wundt established his psychology laboratory at the University at Leipzig in 1879 (Fig. 1.3). In this laboratory, Wundt and his students conducted experiments on, for example, reaction times. A subject, sometimes in a room isolated from the scientist, would receive a stimulus such as a light, image, or sound. The subject’s reaction to the stimulus would be to push a button, and an apparatus would record the time to reaction. Wundt could measure reaction time to one-thousandth of a second (Nicolas & Ferrand, 1999).
+In the category of social science there are many diffrent topics that count as *Social Science* here is a list of the topics I find legitimate, with links to their own seperate pages:
 
-![Willam Wundt](https://s3-us-west-2.amazonaws.com/edx-course-psyc-ap/textbook/CNX_Psych_01_02_Wundt.jpg)
+* [Economics](./file3/Economics.md)
+* [Psychology](./file3/Psychology.md)
+* [History](./file3/History.md)
+* [Political Science](./file3/Political_Science.md)
+* [Linguistics](./file3/Linguistics.md)
+* [Sociology](./file3/Sociology.md)
 
-However, despite his efforts to train individuals in the process of introspection, this process remained highly subjective, and there was very little agreement between individuals. As a result, structuralism fell out of favor with the passing of Wundt’s student, Edward Titchener, in 1927 (Gordon, 1995).
+![](https://mustbethistalltoride.files.wordpress.com/2015/07/social-connection.jpg)
 
-## JAMES AND FUNCTIONALISM
 
-William James (1842–1910) was the first American psychologist who espoused a different perspective on how psychology should operate (Fig. 1.4). James was introduced to Darwin’s theory of evolution by natural selection and accepted it as an explanation of an organism’s characteristics. Key to that theory is the idea that natural selection leads to organisms that are adapted to their environment, including their behavior. Adaptation means that a trait of an organism has a function for the survival and reproduction of the individual, because it has been naturally selected. As James saw it, psychology’s purpose was to study the function of behavior in the world, and as such, his perspective was known as functionalism. Functionalism focused on how mental activities helped an organism fit into its environment. Functionalism has a second, more subtle meaning in that functionalists were more interested in the operation of the whole mind rather than of its individual parts, which were the focus of structuralism. Like Wundt, James believed that introspection could serve as one means by which someone might study mental activities, but James also relied on more objective measures, including the use of various recording devices, and examinations of concrete products of mental activities and of anatomy and physiology (Gordon, 1995).
+What are all these topics, most of them are pretty self explainitory, but I'll quickly define these topics broadly.
 
-![William James](https://s3-us-west-2.amazonaws.com/edx-course-psyc-ap/textbook/CNX_Psych_01_02_James.jpg)
+*Economics*
+> The study of markets.
 
-## Freud and Psychoanalytic Theory
 
-Perhaps one of the most influential and well-known figures in psychology’s history was Sigmund Freud (Fig. 1.5). Freud (1856–1939) was an Austrian neurologist who was fascinated by patients suffering from “hysteria” and neurosis. Hysteria was an ancient diagnosis for disorders, primarily of women with a wide variety of symptoms, including physical symptoms and emotional disturbances, none of which had an apparent physical cause. Freud theorized that many of his patients’ problems arose from the unconscious mind. In Freud’s view, the unconscious mind was a repository of feelings and urges of which we have no awareness. Gaining access to the unconscious, then, was crucial to the successful resolution of the patient’s problems. According to Freud, the unconscious mind could be accessed through dream analysis, by examinations of the first words that came to people’s minds, and through seemingly innocent slips of the tongue. Psychoanalytic theory focuses on the role of a person’s unconscious, as well as early childhood experiences, and this particular perspective dominated clinical psychology for several decades (Thorne & Henley, 2005).
+*Psychology*
+> The study of how people think.
 
-![Frued](https://s3-us-west-2.amazonaws.com/edx-course-psyc-ap/textbook/CNX_Psych_01_02_Freud.jpg)
 
-Freud’s ideas were influential, and you will learn more about them when you study lifespan development, personality, and therapy. For instance, many therapists believe strongly in the unconscious and the impact of early childhood experiences on the rest of a person’s life. The method of psychoanalysis, which involves the patient talking about their experiences and selves, while not invented by Freud, was certainly popularized by him and is still used today. Many of Freud’s other ideas, however, are controversial. Drew Westen (1998) argues that many of the criticisms of Freud’s ideas are misplaced, in that they attack his older ideas without taking into account later writings. Westen also argues that critics fail to consider the success of the broad ideas that Freud introduced or developed, such as the importance of childhood experiences in adult motivations, the role of unconscious versus conscious motivations in driving our behavior, the fact that motivations can cause conflicts that affect behavior, the effects of mental representations of ourselves and others in guiding our interactions, and the development of personality over time. Westen identifies subsequent research support for all of these ideas.
+*History*
+> The study of the past.
 
-More modern iterations of Freud’s clinical approach have been empirically demonstrated to be effective (Knekt et al., 2008; Shedler, 2010). Some current practices in psychotherapy involve examining unconscious aspects of the self and relationships, often through the relationship between the therapist and the client. Freud’s historical significance and contributions to clinical practice merit his inclusion in a discussion of the historical movements within psychology.
+*Political Science*
+> The study of government.
+
+*Linguistics*
+> The study of language.
+
+*Sociology*
+> The study of how groups think.

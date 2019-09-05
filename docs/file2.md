@@ -1,71 +1,89 @@
 # Math
 
-[Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [CS50W Notes](./cs50w.md)
+[Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [CS50W Notes](./file4.md)
 
-## Rolle’s Theorem
+Math is one of the most interesting topics on this page, and I will have a resources list for math, as well as a topics list. I wish I could cover all topics in math, that is unfortuately impossilbe, on top of that I also don't have that much time to go though and write about, explain and give notes for all these diffrent types of maths. So I will only cover some maths that I find relevant.
 
-Informally, Rolle’s theorem states that if the outputs of a differentiable function f are equal at the endpoints of an interval, then there must be an interior point c where f'(c)=0. Figure illustrates this theorem.
+![](https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fedgy.app%2Fwp-content%2Fuploads%2F2018%2F04%2FMath-awareness-month-feature-image.jpg&f=1&nofb=1)
 
-![Rolle's Theorem](https://cnx.org/resources/9f7150213d442c25a178dfa4522641987a7eefcc/CNX_Calc_Figure_04_04_009.jpg)
+Resources List:
 
-Rolle's Theorem Definition
->Let f be a continuous function over the closed interval [a,b] and differentiable over the open interval (a,b) such that f(a)=f(b). There then exists at least one c∈(a,b) such that f'(c)=0.
+* [Wikipedia](https://www.wikipedia.org/)
+* [MIT OCW](https://ocw.mit.edu/index.htm)
+* [Wolfram Alpha](https://www.wolframalpha.com/)
+* [Symbolab](https://www.symbolab.com/)
+* [Desmos](https://www.desmos.com/calculator)
+* [Khan Academy](https://www.khanacademy.org/math)
+* [Youtube](https://www.youtube.com/)
+* [Paul's Online Math Notes](http://tutorial.math.lamar.edu/)
 
-### Proof
+>All maths will get their own specific resource lists these are general.
 
-Let k=f(a)=f(b). We consider three cases:
+Topic List:
 
-f(x)=k for all x∈(a,b).
-There exists x∈(a,b) such that f(x)>k.
-There exists x∈(a,b) such that f(x)<k.
-Case 1: If f(x)=0 for all x∈(a,b), then f'(x)=0 for all x∈(a,b).
+* Arithmetic
+* Algebra
+* Logic
+* Discrete Math
+* Euclidian Geometry
+* Stats
+* Trigonometry
+* Linear Algebra
+* Calculus (Single Var)
+* Calculus (Multi Var)
+* Diffrential/Intergal Equations
+* Non-Euclidian Geometry
+* Tensor Theory
+* Set Theory
+* Multi-Linear Algebra
+* Game Theory
 
-Case 1: If f(x)=0 for all x∈(a,b), then f'(x)=0 for all x∈(a,b).
-Case 2: Since f is a continuous function over the closed, bounded interval [a,b], by the extreme value theorem, it has an absolute maximum. Also, since there is a point x∈(a,b) such that f(x)>k, the absolute maximum is greater than k. Therefore, the absolute maximum does not occur at either endpoint. As a result, the absolute maximum must occur at an interior point c∈(a,b). Because f has a maximum at an interior point c, and f is differentiable at c, by Fermat’s theorem, f'(c)=0.
-Case 3: The case when there exists a point x∈(a,b) such that f(x)<k is analogous to case 2, with maximum replaced by minimum.
+Definitions:
 
-An important point about Rolle’s theorem is that the differentiability of the function f is critical. If f is not differentiable, even at a single point, the result may not hold. For example, the function f(x)=|x|−1 is continuous over [−1,1] and f(−1)=0=f(1), but f'(c)≠0 for any c∈(−1,1) as shown in the following figure.
+*Arithmetic*
+>Baisc maths such as counting, adding, subtracting, multiplying, dividing, etc.
 
-![](https://cnx.org/resources/9531b9f556e1af873bdab455695aafa3b48c8f27/CNX_Calc_Figure_04_04_002.jpg)
+*Algebra*
+>Dealing with symbols and abstractions as unknown numbers and solving for those numbers using arithmetic operations. Algebra also redefines the concept of an equation.
 
-## The Mean Value Theorm and It's Meaning
+*Logic*
+>Dealing with the foundations of math itself
 
-Rolle’s theorem is a special case of the Mean Value Theorem. In Rolle’s theorem, we consider differentiable functions f defined on a closed interval [a,b] with f(a)=f(b). The Mean Value Theorem generalizes Rolle’s theorem by considering functions that do not necessarily have equal value at the endpoints. Consequently, we can view the Mean Value Theorem as a slanted version of Rolle’s theorem (Figure). The Mean Value Theorem states that if f is continuous over the closed interval [a,b] and differentiable over the open interval (a,b), then there exists a point c∈(a,b) such that the tangent line to the graph of f at c is parallel to the secant line connecting (a,f(a)) and (b,f(b)).
+*Discrete Math*
+>Dealing with mathematical stuctures which are discrete in nature and not continuious.
 
-![](https://cnx.org/resources/93636db137f86180ba6563682c50d33f697d9396/CNX_Calc_Figure_04_04_010.jpg)
-Mean Value Theorm Definition
->Let f be continuous over the closed interval [a,b] and differentiable over the open interval (a,b). Then, there exists at least one point c∈(a,b) such that
+*Euclidian Geometry*
+>Euclidian Geometry is based in Euclid's postulates which are the fundemental belifs that must be true in order for Euclidian Geometry to be true, Euclidian Geometry therefore only works in Euclidian space, or space that conforms to the postulates of Euclidian Geometry. This is the Geometry most people learn in school.
 
->f'(c)=f(b)−f(a)b−a.
+*Statistics*
+>Also known as stats, dealing with data and how we mathematiclly interpret that data.
 
-### Proof
+*Trigonometry*
+>Triangles
 
-The proof follows from Rolle’s theorem by introducing an appropriate function that satisfies the criteria of Rolle’s theorem. Consider the line connecting (a,f(a)) and (b,f(b)). Since the slope of that line is
+*Linear Algebra*
+>Algebra with matricies and vectors, dealing with linear equations.
 
-f(b)−f(a)b−a
-and the line passes through the point (a,f(a)), the equation of that line can be written as
+*Calculus (Single Var)*
+>Limits are the basis of Calculus, single variable calculus essentialy takes the concept of limits and applys them to single variable equations, with the applications of a limit being itegration and diffrentiation.
 
-y=f(b)−f(a)b−a(x−a)+f(a).
-Let g(x) denote the vertical difference between the point (x,f(x)) and the point (x,y) on that line. Therefore,
+*Calculus (Multi Var)*
+>Calculus with more than one variable.
 
-g(x)=f(x)−[f(b)−f(a)b−a(x−a)+f(a)].
+*Diffrential/Intergal Equations*
+>Equations using derivitives and intergrals.
 
-![](https://cnx.org/resources/8f22590bb46713efdae2b7cc7ee843d9a4eeee4e/CNX_Calc_Figure_04_04_011.jpg)
+*Non-Euclidian Geometry*
+>Geometry with diffrent postulates, this is applicable in space that doesn't conform to Euclid's postulates, examples may include hyperbolic or riemannian geometry.
 
-Since the graph of f intersects the secant line when x=a and x=b, we see that g(a)=0=g(b). Since f is a differentiable function over (a,b), g is also a differentiable function over (a,b). Furthermore, since f is continuous over [a,b], g is also continuous over [a,b]. Therefore, g satisfies the criteria of Rolle’s theorem. Consequently, there exists a point c∈(a,b) such that g'(c)=0. Since
+*Tensor Theory*
+>Dealing with tensors, tensors are repersentations of a vector space.
 
-g'(x)=f'(x)−f(b)−f(a)b−a,
-we see that
+*Set Theory*
+>Collections of objects are sets in math these objects can be anything as long as you define them as such, a group of numbers, matricies, tensors, vectors, etc. Set theory deals with mathematical objects as "sets".
 
-g'(c)=f'(c)−f(b)−f(a)b−a.
-Since g'(c)=0, we conclude that
+*Multilinear Algebra*
+>Dealing with multivectors, p-vectors, k-vectors and uses the same methods of linear algebra.
 
-f'(c)=f(b)−f(a)b−a.
-
-
-In the next example, we show how the Mean Value Theorem can be applied to the function f(x)=x−−√ over the interval [0,9]. The method is the same for other functions, although sometimes with more interesting consequences.
-
-
-One application that helps illustrate the Mean Value Theorem involves velocity. For example, suppose we drive a car for 1 h down a straight road with an average velocity of 45 mph. Let s(t) and v(t) denote the position and velocity of the car, respectively, for 0≤t≤1 h. Assuming that the position function s(t) is differentiable, we can apply the Mean Value Theorem to conclude that, at some time c∈(0,1), the speed of the car was exactly
-
-v(c)=s′(c)=s(1)−s(0)1−0=45mph.
+*Game Theory*
+>A mathematical theory that fits decision making into a model.
