@@ -1,6 +1,6 @@
 # CS50W Notes
 
-[Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Science](./file2.md)
+[Natural Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Science](./file2.md)
 
 This here is the sets of notes from Harvard's CS50W Which is a computer science class from Harvard Extension that specifically focuses on website development
 with various languages ranging from HTML to SQL.

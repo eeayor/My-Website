@@ -1,6 +1,6 @@
 # Math
 
-[Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Philosophy and Literature](./file4.md)
+[Natural Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Computer Science](./file4.md)
 
 Math is one of the most interesting topics on this page, and I will have a resources list for math, as well as a topics list. I wish I could cover all topics in math, that is unfortuately impossilbe, on top of that I also don't have that much time to go though and write about, explain and give notes for all these diffrent types of maths. So I will only cover some maths that I find relevant.
 
@@ -18,6 +18,15 @@ Resources List:
 * [Paul's Online Math Notes](http://tutorial.math.lamar.edu/)
 
 >All maths will get their own specific resource lists these are general.
+
+Pages:
+
+* [Discrete Math](./file2/dm.md)
+* [Calculus](./file2/calc.md)
+* [Statistics](./file2/stats.md)
+* [Linear Algebra](./file2/linalg.md)
+* [Multi-Linear Algebra](./file2./multilinalg.md)
+* [Diffrential Equations](./file2/diffeq.md)
 
 Topic List:
 
