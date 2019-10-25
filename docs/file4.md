@@ -1,6 +1,37 @@
-# CS50W Notes
+# Computer Science
 
+<<<<<<< HEAD
 [Natural Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Science](./file2.md)
+=======
+[Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Math](./file2.md)
+
+### Data Science Notes
+
+Data Science, is the science of DATA crazy right I know it's so crazy anyways here are my notes on data science:
+
+* [Pandas](http://markdownnotes.com/+1a1p4m7)
+* [Logistic Regression](http://markdownnotes.com/+11klzmy)
+* [Elastic-Net](http://markdownnotes.com/+1bbamq3)
+* [Lasso](http://markdownnotes.com/+1xg4jao)
+* [Overfitting](http://markdownnotes.com/+3hycmo)
+* [Regularization](http://markdownnotes.com/+1hmicgm)
+* [SGD](http://markdownnotes.com/+1iod72j)
+* [Ridge Regression](http://markdownnotes.com/+1cmkffs)
+* [Linear Regression](http://markdownnotes.com/+1mmk55t)
+
+
+Some Resources:
+
+* [Kaggle](https://www.kaggle.com/)
+* [Leet Code](https://leetcode.com/problemset/all/)
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/)
+* [Sklearn](https://scikit-learn.org/stable/user_guide.html)
+* [Learning ML](https://github.com/logan-lieou/Learning-ML)
+* [Homemade ML](https://github.com/trekhleb/homemade-machine-learning)
+* [Google ML](https://developers.google.com/machine-learning/crash-course)
+
+### CS50W Notes
+>>>>>>> 9e2872c4ec9332766e56d13d4b0d1723587c20e6
 
 This here is the sets of notes from Harvard's CS50W Which is a computer science class from Harvard Extension that specifically focuses on website development
 with various languages ranging from HTML to SQL.
