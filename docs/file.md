@@ -2,8 +2,19 @@
 
 [Home](./README.md) | [Math](./file2.md) | [Social Studies](./file3.md) | [Computer Science](./file4.md)
 
-<<<<<<< HEAD
-Well...
-=======
-Incredible Wow
->>>>>>> 9e2872c4ec9332766e56d13d4b0d1723587c20e6
+### List of Subjects:
+
+* [Physics](./file/physics.md)
+* [Chemistry](./file/chem.md)
+* [Biology](./file/bio.md)
+
+### Definitions:
+
+*Natural Science* - A branch of science dealing with the discription prediction and understanding of natural phenomena
+
+*Physics* - Things that move.
+
+*Chemistry* - Concerned with the interactions of very small things, atoms, molec.
+
+*Biology* - Concerned with the interactions that make life.
+
