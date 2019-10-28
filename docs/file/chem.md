@@ -19,3 +19,47 @@ Energy is conserved in a reaction always because of the first law of thermodynam
 ### Conservation of Mass
 
 ### Theories of the Atom
+
+### Periodic Table
+
+### Gas Laws
+
+### Solubility
+
+### Acids-Bases
+
+### Chemical Bonding / IMFs
+
+### Kinetics
+
+### Thermo
+
+### Electro
+
+### Equalibrium
+
+## Organic Chemistry
+
+### Reveiw
+
+### Acids and Bases
+
+### Functional Groups
+
+### Molecular Structures
+
+### Regioselectivity
+
+### Stereoselectivity
+
+### Spectroscopy
+
+### Organometallic
+
+## Physical Chemistry
+
+### Electro
+
+### Kinetics
+
+### QM
