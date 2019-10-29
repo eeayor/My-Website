@@ -1,10 +1,6 @@
 # Social Science
 
-<<<<<<< HEAD
 [Natural Science](./file.md) | [Math](./file2.md) | [Home](./README.md) | [Philosophy and Litrature](./file4.md)
-=======
-[Science](./file.md) | [Math](./file2.md) | [Home](./README.md) | [Computer Science](./file4.md)
->>>>>>> 9e2872c4ec9332766e56d13d4b0d1723587c20e6
 
 In the category of social science there are many diffrent topics that count as *Social Science* here is a list of the topics I find legitimate, with links to their own seperate pages:
 

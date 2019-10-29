@@ -1,8 +1,5 @@
 # Computer Science
 
-<<<<<<< HEAD
-[Natural Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Science](./file2.md)
-=======
 [Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Math](./file2.md)
 
 ### Data Science Notes
@@ -31,7 +28,6 @@ Some Resources:
 * [Google ML](https://developers.google.com/machine-learning/crash-course)
 
 ### CS50W Notes
->>>>>>> 9e2872c4ec9332766e56d13d4b0d1723587c20e6
 
 This here is the sets of notes from Harvard's CS50W Which is a computer science class from Harvard Extension that specifically focuses on website development
 with various languages ranging from HTML to SQL.
