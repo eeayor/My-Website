@@ -46,5 +46,3 @@ Notes From CS50W:
 * [HTML Notes](./Notes/html-css-notes.html)
 * [GIT Notes](./Notes/git-notes.html)
 * [Flask Notes](./Notes/flask-notes.html)
-* [Project 0](./Notes/Project 0.html)
-* [Project 1](./Notes/Project 1.html)
