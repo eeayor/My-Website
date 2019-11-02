@@ -100,13 +100,45 @@ stuff(x)
 
 These are kind of cool since python has some unique operators.
 
-\* Multipication
-\** Power
+```
+"""
+* Multipication
+** Power
 % Modulus
 + Addition
 - Subtraction
 / Division
 // Floor Division
+"""
+
+a = 3 * 2
+print(a)
+>>> 6
+
+b = 3**9
+print(b)
+>>> 19683
+
+c = 7 % 5
+print(c)
+>>> 2
+
+d = 2 + 9
+print(d)
+>>> 11
+
+e = 9 - 3
+print(e)
+>>> 6
+
+f = 9 / 3
+print(f)
+>>> 3
+
+g = 9 // 2
+print(g)
+>>> 4
+```
 
 ## Lists (Arrays)
 
