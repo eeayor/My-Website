@@ -100,7 +100,7 @@ stuff(x)
 
 These are kind of cool since python has some unique operators.
 
-```
+```python
 """
 * Multipication
 ** Power
