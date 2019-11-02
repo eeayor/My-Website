@@ -12,7 +12,8 @@
 ### Data Science Notes
 
 
->>Data science is a multi-disciplinary field that uses scientific methods, processes, algorithms and systems to extract >>knowledge and insights from structured and unstructured data.
+>Data science is a multi-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data.
+  *Wikipedia Bitch*
 
 
 * [Pandas](http://markdownnotes.com/+1a1p4m7)
