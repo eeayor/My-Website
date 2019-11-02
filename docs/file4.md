@@ -3,6 +3,8 @@
 [Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Math](./file2.md)
 
 ### Resources For Python:
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc3%2FPython-logo-notext.svg%2F1200px-Python-logo-notext.svg.png&f=1&nofb=1)
+
 * [My Notes](./file4/python.md)
 * [Python](https://www.python.org/)
 * [Tutorial Spot](https://www.tutorialspoint.com/python/index.htm)
