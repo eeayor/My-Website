@@ -3,7 +3,7 @@
 [Science](./file.md) | [Home](./README.md) | [Social Science](./file3.md) | [Math](./file2.md)
 
 Resources For Python:
-* [My Notes]()
+* [My Notes](./file4/python.md)
 * [Python](https://www.python.org/)
 * [Tutorial Spot](https://www.tutorialspoint.com/python/index.htm)
 * [W3 Schools](https://www.w3schools.com/python/)
