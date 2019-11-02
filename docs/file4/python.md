@@ -100,8 +100,8 @@ stuff(x)
 
 These are kind of cool since python has some unique operators.
 
-* Multipication
-** Power
+\* Multipication
+\** Power
 % Modulus
 + Addition
 - Subtraction
