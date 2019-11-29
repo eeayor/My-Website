@@ -16,7 +16,7 @@ Above is Boy's surface an example of a manifold which is, a topological space th
 
 ### Definitions:
 
-*Natural Science* - A branch of science dealing with the discription prediction and understanding of natural phenomena
+*Natural Science* - A branch of science dealing with the discription prediction and understanding of natural phenomena.
 
 *Physics* - Things that move.
 
