@@ -1,3 +1,11 @@
-# My-Website
+# Docs
 
-Welcome to my git hub page for my come complicated website hosted on git hub pages, this is supposed to be a site similar to my main site but it's supposed to be an upgrade. Unfortunately what happened is I made the website a bit too complicated and after giving up I forgot how it worked so, I put it on hold for a while this project will eventually come back but I have other things to do right now so I will be producing a much easier and quicker website for my git hub stuff.
+Docs is where my current website exists
+
+# Legacy
+
+I would not recommend opening this file (unless you want a brain hemorrhage) this is the original website which is currentlly being migrated to more modern technologies in the Developing folder.
+
+# Developing
+
+In this folder I'm currently migrating Legacy website content to more updated technologies.
