@@ -1,3 +1,5 @@
+You can find my website at https://logan-lieou.github.io/logan-lieou/
+
 # Docs
 
 Docs is where my current website exists
