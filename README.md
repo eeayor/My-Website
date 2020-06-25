@@ -1,4 +1,4 @@
-You can find my website at https://logan-lieou.github.io/logan-lieou/
+You can find my website at https://logan-lieou.xyz
 
 # index.html
 
