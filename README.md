@@ -1,4 +1,5 @@
 You can find my website at https://logan-lieou.xyz
+Or maybe here: https://logan-lieou.github.io/logan-lieou/
 
 # index.html
 
