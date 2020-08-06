@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ssg5 src docs "Just Another Website" "https://logan-lieou.xyz"

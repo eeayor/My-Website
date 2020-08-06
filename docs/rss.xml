@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<atom:link href="" rel="self" type="application/rss+xml" />
+<title>title</title>
+<description>Here contains some posts that will have stuff in them!
+The following is a test:</description>
+<link>/</link>
+<lastBuildDate></lastBuildDate>
+
+<item>
+<guid>/</guid>
+<link>/</link>
+<pubDate></pubDate>
+<title>Logan Lieou</title>
+<description><![CDATA[
+
+<html>
+  <head>
+    <link rel="icon" href="/favicon.png" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Just Another Website</title>
+   </head>
+<h1 id="Logan%20Lieou">Logan Lieou</h1>
+
+<p>Here contains some posts that will have stuff in them!
+The following is a test:</p>
+
+<pre><code class="language-c">int main() {
+
+}
+</code></pre>
+<footer>
+  <p>Author: Logan Lieou</p>
+</footer>
+</html>
+
+]]></description>
+</item>
+</channel></rss>

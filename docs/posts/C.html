@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="alternate" type="application/atom+xml" href="/rss.xml">
+    <title>Just Another Website</title>
+   </head>
+<h1 id="The%20C%20Programming%20Language">The C Programming Language</h1>
+
+<p>To get started with programming C you may want to install gcc, which is the gnu c compiler. The C compiler cc is pre installed on most machines, gcc is also pre installed on most machines, the commands will work with cc or gcc.</p>
+
+<p>You may have to install gcc or cc manually on Windows, and I don&#39;t really know how to or care to know how to do that, you can probably just look it up it&#39;s probably not that hard.</p>
+
+<p>So the first thing you may want to do is write a program, this is really simple writing a C program all you have to do is start up your favorite text editor, and save the file type as .c for example the following program:</p>
+
+<pre><code class="language-c">int main() {
+
+}
+</code></pre>
+
+<p>As you can see there is nothing there except for the main function. You can save this program as program.c and compile it with gcc like follows: <code>gcc program.c -o program</code> then run the program with <code>.&#47;program</code> there is no output obviously because there&#39;s nothing that you put in your program. In order to get output you need to include the header stdio, in order to do this:</p>
+
+<pre><code class="language-c">#include &#60;stdio.h&#62;
+
+int main() {
+
+}
+</code></pre>
+
+<p>Now you can get output with the printf function. We can read the documentation for printf <a href="https://devdocs.io/c/io/fprintf">here</a> as we can see the printf function is pretty complicated. <code>int printf( const char *format, ...);</code> the reason why printf is an int, is because apparently void didn&#39;t exist back then so printf returns the number of characters. A string in C is not actually a string but rather an array of characters, so when passing the const char of *format argument that&#39;s actually a pointer of type char to your &#8220;string&#8221; which can contain special format operators. The documentation says the format is a null-terminated multibyte string specifying how to interpret the data contained within an input string. The format string contains normal characters like &#8216;a&#8217; &#8216;b&#8217; &#8216;c&#8217; &#8216;d&#8217; etc. except for &#8216;%&#8216; which acts an an introductory character. What this means is when the compiler runs into &#8216;%&#8216; it then knows that the following will point to some value in order in the additional arguements %d, for example points to a digit in the later arguements so if you pass <code>printf("%d", 3);</code> it will print out 3 you cannot do just <code>printf(3)</code> as 3 is not a string. But when you pass %d it points to the first arguement of type *int, *long, etc. Finally it takes the mutated char array, and outputs it to stdout which is the console in this case. You may also want to include another special character, which isn&#39;t specified in the documentation as it&#39;s just a character that you can input regardless of language: &#8216;\n&#8217; is the character value of a cariage return. C doesn&#39;t include \n at the end of it&#39;s output by default so when you run .&#47;program the output may look super jank.</p>
+
+<pre><code class="language-c">#include &#60;stdio.h&#62;
+
+int main() {
+  printf("%d\n", 3);
+}
+</code></pre>
+
+<p>Here is a test post, really that&#39;s all it is.</p>
+<footer>
+  <p>Author: Logan Lieou</p>
+  <p>Github: <a href="https://github.com/logan-lieou">logan-lieou</a><p>
+</footer>
+</html>
