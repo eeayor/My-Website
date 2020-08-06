@@ -6,5 +6,6 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://logan-lieou.xyz/posts/C.html</loc><lastmod>2020-08-06</lastmod><priority>1.0</priority></url>
 <url><loc>https://logan-lieou.xyz/posts/about.html</loc><lastmod>2020-08-06</lastmod><priority>1.0</priority></url>
+<url><loc>https://logan-lieou.xyz/posts/PGP.html</loc><lastmod>2020-08-06</lastmod><priority>1.0</priority></url>
 <url><loc>https://logan-lieou.xyz/index.html</loc><lastmod>2020-08-06</lastmod><priority>1.0</priority></url>
 </urlset>

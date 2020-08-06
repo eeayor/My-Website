@@ -35,6 +35,10 @@ pre {
     margin: inherit auto;
 }
 
+code {
+    color: #00AA00;
+}
+
 li {
     list-style-type: none;
     padding: 5px;

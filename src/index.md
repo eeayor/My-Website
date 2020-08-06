@@ -11,5 +11,6 @@ int main() {
 
 Other Posts:
 
+* [PGP](posts/PGP.html)
 * [Getting Started With C](posts/C.html)
 * [About](posts/about.html)
