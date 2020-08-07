@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="alternate" type="application/atom+xml" href="/rss.xml">
+    <title>Just Another Website</title>
+   </head>
+<h1 id="Python">Python</h1>
+
+<p>Python is a programming language, it&#39;s probably the easiest language to pick up and learn and understand. From a conceptual standpoint python is probably the best first language as you don&#39;t get overwhelmed by all kinds of extra stuff that&#39;s really not that important for a beginer such as trying to memorize <code>System.out.println();</code> or what the fuck <code>public static void main(String[] args) {</code> does or what the fuck <code>*int</code> means. Python is very strighforeward and easy to understand thus allowing for people to just understand programming, rather than memorizing programming.</p>
+
+<p>A basic hello world: </p>
+
+<pre><code class="language-python">print("Hello world!")
+</code></pre>
+
+<p>It&#39;s pretty self explainatory, print out hello world to the screen, that&#39;s it. other concepts are very simple in python as well such as functions.
+<code>python
+def sum(x, y):
+    return x + y
+</code></p>
+
+<p>You can see that it&#39;s a function because of the keyword <code>def</code> and you know what it&#39;s returning x + y because of the keyword <code>return</code> you also find that every function needs to return something, or does it? This is where python is kinda bad: </p>
+
+<pre><code class="language-python">def hello(name):
+    print("Hello " + str(name))
+</code></pre>
+
+<p>So someone who is starting out may actually think you are returning something in this function, perhaps a string, but really since types in python are implied this function is a <code>void</code> function meaning that it has no return statement. If a function has no <code>return</code> then it&#39;s void. What we are doing in this function is calling another function then mutating it&#39;s output by passing an arugment.</p>
+
+<p>Something else that&#39;s kinda terrible about programming classes is OOP, and this is something that python does really well as python is considered a <em>multi paradigm</em> language you are not constrained to just OOP like in java or just procedural programming like in C.</p>
+
+<pre><code class="language-python">
+# functional
+sum = lambda x y: x + y
+
+# or
+
+sum([x, y])
+
+# oop
+class sum_obj:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    def call(self):
+        return self.x + self.y
+        
+# most people
+def sum(x, y):
+    return x + y
+
+</code></pre>
+
+<p>This is really op as it allows people to understand and learn multipule paradigms. Python is also really useful for a number of things, including data science, finance, web development, research (data collection, and math), automation &#47; scripting , and IoT (micropython). You could include game development on there but in all reality py game is a meme and most practical use cases for python in game development fall under automation &#47; scripting.</p>
+<footer>
+  <p>Author: Logan Lieou</p>
+  <p>Github: <a href="https://github.com/logan-lieou">logan-lieou</a><p>
+</footer>
+</html>

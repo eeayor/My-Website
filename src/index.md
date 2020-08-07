@@ -11,6 +11,7 @@ int main() {
 
 Other Posts:
 
+* [Python](posts/python.html)
 * [Changing DNS](posts/dns.html)
 * [PGP](posts/PGP.html)
 * [Getting Started With C](posts/C.html)

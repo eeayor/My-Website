@@ -1,0 +1,11 @@
+  /home/loganj/Code/Git/logan-lieou/src/posts:
+  total used in directory 36 available 12624232
+  drwxr-xr-x 3 loganj loganj 4096 Aug  7 08:32 .
+  drwxr-xr-x 3 loganj loganj 4096 Aug  7 08:37 ..
+  -rw-r--r-- 1 loganj loganj   40 Aug  6 09:51 about.md
+  -rw-r--r-- 1 loganj loganj 2899 Aug  6 09:24 C.md
+  -rw-r--r-- 1 loganj loganj 2084 Aug  7 08:32 dns.md
+  -rw-r--r-- 1 loganj loganj 2483 Aug  6 10:12 favicon.png
+  drwxr-xr-x 2 loganj loganj 4096 Aug  7 08:26 images
+  -rw-r--r-- 1 loganj loganj 2910 Aug  6 14:11 PGP.md
+  -rw-r--r-- 1 loganj loganj  969 Aug  7 08:37 style.css
