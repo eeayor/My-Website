@@ -3,6 +3,14 @@ body {
     color: white;
 }
 
+h2 {
+	color: white;
+	text-align: justify;
+	padding: 15px;
+	font-family: Helvetica;
+	margin-bottom: 10px;
+}
+
 h1 {
     color: white;
     text-align: justify;
