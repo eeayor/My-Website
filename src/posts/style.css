@@ -1,10 +1,10 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #2E3440;
+    color: #ECEFF4;
 }
 
 h2 {
-	color: white;
+	color: #ECEFF4;
 	text-align: justify;
 	padding: 15px;
 	font-family: Helvetica;
@@ -12,7 +12,7 @@ h2 {
 }
 
 h1 {
-    color: white;
+    color: #ECEFF4;
     text-align: justify;
     padding: 15px;
     margin: auto;
@@ -22,7 +22,7 @@ h1 {
 }
 
 footer {
-    color: white;
+    color: #ECEFF4;
     background-color: black;
     text-align: center;
     font-family: Helvetica;
@@ -30,7 +30,7 @@ footer {
 }
 
 p {
-    color: white;
+    color: #ECEFF4;
     text-align: justify;
     padding: 15px;
     margin: auto;
@@ -44,7 +44,7 @@ pre {
 }
 
 code {
-    color: #00AA00;
+    color: #A3BE8C;
 }
 
 li {
@@ -56,7 +56,7 @@ a {
     text-decoration: none;
     font-size: inherit;
     font-weight: bold;
-    color: #0000AA;
+    color: #5E81AC;
     font-family: inherit;
 }
 
