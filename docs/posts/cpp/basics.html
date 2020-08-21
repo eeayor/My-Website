@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="alternate" type="application/atom+xml" href="/rss.xml">
+    <title>Just Another Website</title>
+   </head>
+<h1 id="Introduction%20To%20C++">Introduction To C++</h1>
+
+<p>C++ is the language that we are using in college so I thought I would go over setting up the enviornment and writing your first program particually hello world:</p>
+
+<pre><code class="language-c++">#include &#60;iostream&#62;
+
+int main() 
+{
+  std::cout &#60;&#60; "Hello world!" &#60;&#60; std::endl;
+}
+
+</code></pre>
+
+<p>and just breaking down the program and trying to understand what it really does.</p>
+
+<h3 id="IDEs%20and%20why%20you%20Shouldn&amp;#39;t%20use%20One">IDEs and why you Shouldn&#39;t use One</h3>
+
+<p>For the pourposes of learning I don&#39;t think an IDE is really that good and in many ways can hurt the student as on exams and such you will not have autocompletion, autoimports or anything, so it&#39;s a good idea in my opinion to use a text editor instead to write your C++ code from scratch such that you can actually remember syntax as that&#39;s what&#39;s tested on in programming classes. Another issue with IDEs is, the denial of understanding via abstraction of concepts. What this means is for example, when you load up a project in CLion or Visual Studio there is already prexisting &#8220;boilerplate&#8221; code that is present. The issue with that is, is the student fails to learn how the programming language actually works and becomes soely dependent on the &#8220;boilerplate&#8221; rather than actually understand how the program is run, and structured. IDEs can be good for people who already know how to program as it speeds up their process with features such as autocompletition and autoimport but for a student these features may end up doing more harm than good.</p>
+
+<p>TLDR: IDEs are for people who already know how to program, and deny students fundemental understanding of programing by abstracting away the need for students to understand how code works. </p>
+
+<h3 id="Enviornment%20Setup">Enviornment Setup</h3>
+
+<p>So if you&#39;re using a unix based operating system (mac os, linux, bsd) this enviornment setup guide is made for you. If you&#39;re on windows please get off my website, just kidding but seriously if you&#39;re on windows and planning on developing I would highly encourage installing a different operating system or installing WSL read more about it <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">here</a>, but if unfortunately you have decided to stay on windows for some reason you can go get MinGW <a href="http://www.mingw.org/">here</a> and attempt to follow along.</p>
+
+<p>So the first step, is to have a compiler. gcc if you&#39;re on linux or bsd, clang if you&#39;re on mac os. On mac os I belive you have to download XCode so that you can get clang but I&#39;m not sure because my mac already has XCode on it and I couldn&#39;t figure out if it came built in or not.</p>
+
+<p>The second step is to create a cpp file. Run <code>touch main.cpp</code> all this does is initializes an empty file with the extention .cpp and the name main. </p>
+
+<p>The last step is: open main.cpp in your favorite text editor.</p>
+
+<blockquote>
+<p>Note on text editors; if you don&#39;t know what text editor to use I would recommend learning vim as it has the highest return on time investment of any text editor.</p>
+</blockquote>
+
+<h3 id="The%20Program">The Program</h3>
+
+<pre><code class="language-c++">#include &#60;iostream&#62;
+
+int main()
+{
+  std::cout &#60;&#60; "Hello world!";
+  return 0;
+}
+
+</code></pre>
+
+<p>So what is the program doing here? Obviously a lot of people will just copy and paste the code above into their text editor and just move on to the compile step but this part is pretty important. So first of all at the very top of our program we have <code>#include &#60;iostream&#62;</code> this is telling c++ to include the headerfile for the input output stream, we need this header file because we want to output to the console. This header includes cout and endl here in the program. In our main function you will notice that it says <code>int main()</code> the reason why it&#39;s an int and not a void is because legacy and ANSI without getting too much into it the main function will just return an integer based on weather or not the program ran sucsessfully. According to standards the value that indicates the program ran successfully is 0, so we <code>return 0;</code> in the main function to indicate that the program finnished running &#47; it ran successfully. Technicly the compiler adds this on by default so it&#39;s not required for the program to work correctly but is still seen in many textbooks and classes. the main line of code here is the <code>std::cout &#60;&#60; "Hello world!";</code> what&#39;s going on here is that we are taking a string (which is just an array of characters) and passing it through standard console out <code>std::cout</code> passing the string to the standard console output prints the string to the console.</p>
+
+<h3 id="Compiling">Compiling</h3>
+
+<p>On linux based system <code>g++ main.cpp -o main</code>
+On mac os <code>clang++ main.cpp -o main</code></p>
+
+<p>Then run with <code>.&#47;main</code></p>
+
+<p>On windows <code>delete system32</code></p>
+<footer>
+  <p>Author: Logan Lieou</p>
+  <p>Github: <a href="https://github.com/logan-lieou">logan-lieou</a><p>
+</footer>
+</html>
