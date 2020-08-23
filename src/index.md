@@ -4,7 +4,7 @@ We're gonna start using C++ cause that's what I use in college and also C++ is a
 
 The point of this website, is a place where I can point people to to learn about things so I don't have to explain it to them.
 
-## Other Posts:
+### Other Posts:
 
 
 * [About](posts/about.html)
