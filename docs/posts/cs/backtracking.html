@@ -1,0 +1,139 @@
+<html>
+  <head>
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="alternate" type="application/atom+xml" href="/rss.xml">
+    <title>Just Another Website</title>
+   </head>
+<h1 id="Backtracking">Backtracking</h1>
+
+<h3 id="What%20is%20Backtracking?">What is Backtracking?</h3>
+
+<p>Backtracking is technically a tree search algorithm, but for the most part is used to
+solve Constraint Satisfaction Problems (CSP) say we have a tree S of all possible
+solutions to some CSP what backtracking does is it searches S and eliminates s (where
+s is a subset of S) that can not possibly yield valid solutions.</p>
+
+<p>So now none of that made sense let&#39;s look at the beginning.</p>
+
+<h3 id="When%20would%20I%20want%20to%20use%20Backtracking?">When would I want to use Backtracking?</h3>
+
+<p>So as stated before Backtracking is generally used to solve Constraint Satisfaction
+Problems (CSP) so what is a Constraint Satisfaction Problem? A Constraint Satisfaction
+is when you have some set of things where each thing must comply with a list
+of constraints that problem has.</p>
+
+<p>For example, Sudoku. You start with a 9x9 grid, we would define this grid as X and each
+element in X, X&#60;sub&#62;i&#60;&#47;sub&#62;, X&#60;sub&#62;i&#60;&#47;sub&#62; would have to satisfy a list of constraints
+C, in the case of Sudoku ~inRow ~inCol ~inBox these constraints constrain the domain D
+in Sudoku D is 1-9 but each X&#60;sub&#62;i&#60;&#47;sub&#62; has a corresponding domain D&#60;sub&#62;i&#60;&#47;sub&#62; that
+domain is limited on what it can be based on C, so if we start at the first elem
+X&#60;sub&#62;1&#60;&#47;sub&#62; D&#60;sub&#62;1&#60;&#47;sub&#62; can be any value 1-9 given that no other values exist in X
+now for X&#60;sub&#62;2&#60;&#47;sub&#62; the domain D&#60;sub&#62;2&#60;&#47;sub&#62; must comply with the constraints, ~inCol
+~inRow ~inBox if we iterate across the row by incrementing col, we know that the first
+elem. X&#60;sub&#62;1&#60;&#47;sub&#62; is both inBox and inRow but not inCol so the constraints put on
+D&#60;sub&#62;2&#60;&#47;sub&#62; is that it can be any value 1-9 such that it&#39;s not the same value as
+X&#60;sub&#62;1&#60;&#47;sub&#62; or any value 1-9 such that it&#39;s ~inRow or ~inBox, this would obviously
+continues across the grid. Expanding upon this we would define the CSP as: &#60;X, D, C&#62;
+where each X&#60;sub&#62;n&#60;&#47;sub&#62; has possible value D&#60;sub&#62;n&#60;&#47;sub&#62; such that it satisfies
+C&#60;sub&#62;n&#60;&#47;sub&#62;.</p>
+
+<p>For the most part though you don&#39;t want to actually use backtracking unless it&#39;s for
+a specific problem such as solving Sudoku where there&#39;s really no other options because
+The backtracking algorithm has exponential space and time complexity.</p>
+
+<h3 id="Backtracking-2">Backtracking</h3>
+
+<p>Backtracking finds all&#47;some solutions to a problem and incrementally includes new
+candidates to solve the problem it backtracks candidates who prove to have no possible
+valid solution saving precious computational resources that would have been wasted on
+computing invalid solutions.</p>
+
+<p><em>Sudoku Example</em>:</p>
+
+<pre><code class="language-c++">bool solveSudoku( int grid[N][N], int row, int col)
+{
+  &#47;&#47; if the index is at the end
+  if (row == N - 1 &#38;&#38; col == N) {
+    &#47;&#47; and if constraints satisfied
+    if (isSafe(grid)) {
+      &#47;&#47; output solved grid
+      printGrid(grid);
+      &#47;&#47; and return true
+      return true;
+    }
+    
+    &#47;&#47; otherwise return false
+    &#47;&#47; meaning the grid is not actually solved
+    return false;
+  }
+
+  &#47;&#47; end of row move to next row
+  &#47;&#47; end of row is indicated by being at the last column
+  if (col == N) {
+    row++;
+    col = 0;
+  }
+
+  &#47;&#47; if the element is non zero keep as is
+  if (grid[row][col] != UNASSIGNED)
+    return solveSudoku(grid, row, col + 1);
+
+  &#47;&#47; consider digits from 1-9
+  for (int num = 1; num &#60;= 9; num++) {
+    grid[row][col] = num;
+
+    &#47;&#47; recurse
+    if (solveSudoku(grid, row, col + 1))
+      &#47;&#47; return true of we have reached the end
+      return true;
+
+    &#47;&#47; failure
+    grid[row][col] = 0;
+  }
+  
+  &#47;&#47; continue trying
+  return false;
+}
+</code></pre>
+
+<p><em>Sudoku Example Backtracking</em>:
+```c++
+bool SolveSudoku (int grid[N][N])
+{
+    int row, col;</p>
+
+<pre><code>&#47;&#47; if there are no empty squares assume solved
+&#47;&#47; this is technicaly bad but whatever
+if (!FindUnassignedLocation(grid, row, col))
+    return true;
+
+for (int num = 1; num &#60;= 9; num++) {
+    &#47;&#47; check constraints
+    if (isSafe(grid, row, col, num)) {
+        grid[row][col] = num;
+
+        &#47;&#47; recurse
+        if (SolveSudoku(grid))
+            return true;
+
+        &#47;&#47; this means failure
+        grid[row][col] = UNASSIGNED;
+    }
+}
+
+&#47;&#47; trigger backtracking
+return false;
+</code></pre>
+
+<p>}
+```</p>
+
+<p>Checking the compiled runtime of backtracked vs not, the difference is huge, on average
+the non-backtracked sudoku algorithm takes 7.9 ish sec whereas the backtracked algorithm
+takes 0.002 sec on average.</p>
+<footer>
+  <p>Author: Logan Lieou</p>
+  <p>Github: <a href="https://github.com/logan-lieou">logan-lieou</a><p>
+</footer>
+</html>
