@@ -24,19 +24,19 @@ is when you have some set of things where each thing must comply with a list
 of constraints that problem has.</p>
 
 <p>For example, Sudoku. You start with a 9x9 grid, we would define this grid as X and each
-element in X, X&#60;sub&#62;i&#60;&#47;sub&#62;, X&#60;sub&#62;i&#60;&#47;sub&#62; would have to satisfy a list of constraints
+element in X, X<em>i</em>, X<em>i</em> would have to satisfy a list of constraints
 C, in the case of Sudoku ~inRow ~inCol ~inBox these constraints constrain the domain D
-in Sudoku D is 1-9 but each X&#60;sub&#62;i&#60;&#47;sub&#62; has a corresponding domain D&#60;sub&#62;i&#60;&#47;sub&#62; that
+in Sudoku D is 1-9 but each X<em>i</em> has a corresponding domain D<em>i</em> that
 domain is limited on what it can be based on C, so if we start at the first elem
-X&#60;sub&#62;1&#60;&#47;sub&#62; D&#60;sub&#62;1&#60;&#47;sub&#62; can be any value 1-9 given that no other values exist in X
-now for X&#60;sub&#62;2&#60;&#47;sub&#62; the domain D&#60;sub&#62;2&#60;&#47;sub&#62; must comply with the constraints, ~inCol
+X<em>1</em> D<em>1</em> can be any value 1-9 given that no other values exist in X
+now for X<em>2</em> the domain D<em>2</em> must comply with the constraints, ~inCol
 ~inRow ~inBox if we iterate across the row by incrementing col, we know that the first
-elem. X&#60;sub&#62;1&#60;&#47;sub&#62; is both inBox and inRow but not inCol so the constraints put on
-D&#60;sub&#62;2&#60;&#47;sub&#62; is that it can be any value 1-9 such that it&#39;s not the same value as
-X&#60;sub&#62;1&#60;&#47;sub&#62; or any value 1-9 such that it&#39;s ~inRow or ~inBox, this would obviously
+elem. X<em>1</em> is both inBox and inRow but not inCol so the constraints put on
+D<em>2</em> is that it can be any value 1-9 such that it&#39;s not the same value as
+X<em>1</em> or any value 1-9 such that it&#39;s ~inRow or ~inBox, this would obviously
 continues across the grid. Expanding upon this we would define the CSP as: &#60;X, D, C&#62;
-where each X&#60;sub&#62;n&#60;&#47;sub&#62; has possible value D&#60;sub&#62;n&#60;&#47;sub&#62; such that it satisfies
-C&#60;sub&#62;n&#60;&#47;sub&#62;.</p>
+where each X<em>n</em> has possible value D<em>n</em> such that it satisfies
+C<em>n</em>.</p>
 
 <p>For the most part though you don&#39;t want to actually use backtracking unless it&#39;s for
 a specific problem such as solving Sudoku where there&#39;s really no other options because
@@ -97,37 +97,35 @@ computing invalid solutions.</p>
 }
 </code></pre>
 
-<p><em>Sudoku Example Backtracking</em>:
-```c++
-bool SolveSudoku (int grid[N][N])
+<p><em>Sudoku Example Backtracking</em>:</p>
+
+<pre><code class="language-c++">bool SolveSudoku (int grid[N][N])
 {
-    int row, col;</p>
+    int row, col;
 
-<pre><code>&#47;&#47; if there are no empty squares assume solved
-&#47;&#47; this is technicaly bad but whatever
-if (!FindUnassignedLocation(grid, row, col))
-    return true;
+    &#47;&#47; if there are no empty squares assume solved
+    &#47;&#47; this is technicaly bad but whatever
+    if (!FindUnassignedLocation(grid, row, col))
+        return true;
 
-for (int num = 1; num &#60;= 9; num++) {
-    &#47;&#47; check constraints
-    if (isSafe(grid, row, col, num)) {
-        grid[row][col] = num;
+    for (int num = 1; num &#60;= 9; num++) {
+        &#47;&#47; check constraints
+        if (isSafe(grid, row, col, num)) {
+            grid[row][col] = num;
+            
+            &#47;&#47; recurse
+            if (SolveSudoku(grid))
+                return true;
 
-        &#47;&#47; recurse
-        if (SolveSudoku(grid))
-            return true;
-
-        &#47;&#47; this means failure
-        grid[row][col] = UNASSIGNED;
+            &#47;&#47; this means failure
+            grid[row][col] = UNASSIGNED;
+        }
     }
+
+    &#47;&#47; trigger backtracking
+    return false;
 }
-
-&#47;&#47; trigger backtracking
-return false;
 </code></pre>
-
-<p>}
-```</p>
 
 <p>Checking the compiled runtime of backtracked vs not, the difference is huge, on average
 the non-backtracked sudoku algorithm takes 7.9 ish sec whereas the backtracked algorithm

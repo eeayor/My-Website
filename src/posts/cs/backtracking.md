@@ -1,4 +1,4 @@
-#Backtracking
+# Backtracking
 
 ### What is Backtracking?
 
@@ -18,19 +18,19 @@ is when you have some set of things where each thing must comply with a list
 of constraints that problem has.
 
 For example, Sudoku. You start with a 9x9 grid, we would define this grid as X and each
-element in X, X<sub>i</sub>, X<sub>i</sub> would have to satisfy a list of constraints
+element in X, X_i_, X_i_ would have to satisfy a list of constraints
 C, in the case of Sudoku ~inRow ~inCol ~inBox these constraints constrain the domain D
-in Sudoku D is 1-9 but each X<sub>i</sub> has a corresponding domain D<sub>i</sub> that
+in Sudoku D is 1-9 but each X_i_ has a corresponding domain D_i_ that
 domain is limited on what it can be based on C, so if we start at the first elem
-X<sub>1</sub> D<sub>1</sub> can be any value 1-9 given that no other values exist in X
-now for X<sub>2</sub> the domain D<sub>2</sub> must comply with the constraints, ~inCol
+X_1_ D_1_ can be any value 1-9 given that no other values exist in X
+now for X_2_ the domain D_2_ must comply with the constraints, ~inCol
 ~inRow ~inBox if we iterate across the row by incrementing col, we know that the first
-elem. X<sub>1</sub> is both inBox and inRow but not inCol so the constraints put on
-D<sub>2</sub> is that it can be any value 1-9 such that it's not the same value as
-X<sub>1</sub> or any value 1-9 such that it's ~inRow or ~inBox, this would obviously
+elem. X_1_ is both inBox and inRow but not inCol so the constraints put on
+D_2_ is that it can be any value 1-9 such that it's not the same value as
+X_1_ or any value 1-9 such that it's ~inRow or ~inBox, this would obviously
 continues across the grid. Expanding upon this we would define the CSP as: <X, D, C>
-where each X<sub>n</sub> has possible value D<sub>n</sub> such that it satisfies
-C<sub>n</sub>.
+where each X_n_ has possible value D_n_ such that it satisfies
+C_n_.
 
 For the most part though you don't want to actually use backtracking unless it's for
 a specific problem such as solving Sudoku where there's really no other options because
