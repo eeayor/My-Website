@@ -1,4 +1,4 @@
-# Backtracking
+#Backtracking
 
 ### What is Backtracking?
 
@@ -91,7 +91,11 @@ bool solveSudoku( int grid[N][N], int row, int col)
   return false;
 }
 ```
+
+
 *Sudoku Example Backtracking*:
+
+
 ```c++
 bool SolveSudoku (int grid[N][N])
 {
