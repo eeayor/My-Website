@@ -20,5 +20,5 @@ The point of this website, is a place where I can point people to to learn about
 
 
 ### Cyber Sec.
-* [Changing DNS](posts/cyber/dns.html)
-* [PGP](posts/cyber/PGP.html)
+* [Changing DNS](posts/dns.html)
+* [PGP](posts/PGP.html)
