@@ -9,16 +9,26 @@ The point of this website, is a place where I can point people to to learn about
 
 * [About](posts/about.html)
 * [Upcomming](posts/todo.html)
+* [Tools I Use](posts/tools.html)
 
 
 ### Computer Science
 * [Backtracking](posts/cs/backtracking.html)
+* [Lambda Calculus]()
+
+### Data Science
+* [Statistics Introduction]()
 
 
 ### C++
 * [Basics of CPP](posts/cpp/basics.html)
+* [Understanding Time Complexity](posts/cpp/timecomplexity.html)
 
 
 ### Cyber Sec.
 * [Changing DNS](posts/dns.html)
 * [PGP](posts/PGP.html)
+
+### Projects
+
+* I have no Project .-.
