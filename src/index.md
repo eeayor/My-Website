@@ -1,34 +1,5 @@
 # Just Another Website
 
-We're gonna start using C++ cause that's what I use in college and also C++ is actually a pretty decent language.
-
-The point of this website, is a place where I can point people to to learn about things so I don't have to explain it to them.
-
-### Other Posts:
+Empty like brain, here there's supposed to be stuff there's content on the github explaining certian things but for some reason I don't really have any ideas for the website but yeah this exists, I think I'll use this for like blog type stuff I'll use this for something else like project portfolio website or something.
 
 
-* [About](posts/about.html)
-* [Upcomming](posts/todo.html)
-* [Tools I Use](posts/tools.html)
-
-
-### Computer Science
-* [Backtracking](posts/cs/backtracking.html)
-* [Lambda Calculus]()
-
-### Data Science
-* [Statistics Introduction]()
-
-
-### C++
-* [Basics of CPP](posts/cpp/basics.html)
-* [Understanding Time Complexity](posts/cpp/timecomplexity.html)
-
-
-### Cyber Sec.
-* [Changing DNS](posts/dns.html)
-* [PGP](posts/PGP.html)
-
-### Projects
-
-* I have no Project .-.
